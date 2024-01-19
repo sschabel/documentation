@@ -15,8 +15,8 @@ Follow the below steps to prep your Jellyfin host machine.
     sudo useradd -m -r -d /opt/jellyfin jellyfin
     ```
 2. Run the following commands to create the necessary directories for Jellyfin to use for its configuration, cache, and media.
-    > [!NOTE]
-    > You can use an external drive for storing Jellyfin media. See the [Mounting an external drive containing media](#mounting-an-external-drive-containing-media) section below.
+> [!NOTE]
+> You can use an external drive for storing Jellyfin media. See the [Mounting an external drive containing media](#mounting-an-external-drive-containing-media) section below.
 
     ```sh
     sudo mkdir /opt/jellyfin/config
